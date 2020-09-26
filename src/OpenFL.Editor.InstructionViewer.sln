@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFL.Editor.InstructionViewer", "OpenFL.Editor.InstructionViewer\OpenFL.Editor.InstructionViewer.csproj", "{26401C92-F7D3-49F3-AEA4-D8E1A7FDBA7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Editor", "Editor", "{7176F90D-383F-483E-8969-9FDB239F471E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FL", "FL", "{26132202-3AB2-44AE-B622-4174A03FEC98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CL", "CL", "{717C4AEF-888A-43BF-9112-2778BEA4AEA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsForms", "WindowsForms", "{DDF99394-EB90-4A13-A804-3A1BAE8F808D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{989A8B77-EACE-46B9-AE39-92C4FEACCDF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCL.NET", "..\deps\OpenFL.Editor\deps\OpenFL\deps\OpenCL.Wrapper\deps\OpenCL\src\OpenCL\OpenCL.NET.csproj", "{B7E406F1-1144-4163-B53A-782E14D58D1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenCL.Wrapper", "..\deps\OpenFL.Editor\deps\OpenFL\deps\OpenCL.Wrapper\src\OpenCL.Wrapper\OpenCL.Wrapper.csproj", "{F577CEE3-C6FF-4160-AC4D-D7633A7E4C36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenFL", "..\deps\OpenFL.Editor\deps\OpenFL\src\OpenFL\OpenFL.csproj", "{4271B2DF-70D1-4953-934F-1E6431A6CA93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "..\deps\OpenFL.Editor\deps\OpenFL\deps\OpenCL.Wrapper\deps\Utility\src\Utility\Utility.csproj", "{13E72858-61C6-48B6-974C-CAEE57777D01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginSystem", "..\deps\OpenFL.Editor\deps\OpenFL\deps\PluginSystem\src\PluginSystem\PluginSystem.csproj", "{166A2649-688E-4DE0-89AB-14984566CD91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeEngine", "..\deps\OpenFL.Editor\deps\ThemeEngine\src\ThemeEngine\ThemeEngine.csproj", "{5B9F1ABA-8297-4855-B06B-B3C0F2419B35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "..\deps\OpenFL.Editor\deps\ThemeEngine\deps\Utility\src\Utility\Utility.csproj", "{4BD0C204-BD88-4664-97CC-A1C19C75E648}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility", "..\deps\OpenFL.Editor\deps\Utility.WindowsForms\deps\Utility\src\Utility\Utility.csproj", "{2F7399AB-2FB2-419F-B2A1-2E88F0D3166C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility.WindowsForms", "..\deps\OpenFL.Editor\deps\Utility.WindowsForms\src\Utility.WindowsForms\Utility.WindowsForms.csproj", "{771AA9BE-E747-438E-9FA1-F4AA0AD6DDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFL.Editor", "..\deps\OpenFL.Editor\src\OpenFL.Editor\OpenFL.Editor.csproj", "{0DBA7A0D-7701-4DB4-B6AE-8C3D5D2ABDDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26401C92-F7D3-49F3-AEA4-D8E1A7FDBA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26401C92-F7D3-49F3-AEA4-D8E1A7FDBA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26401C92-F7D3-49F3-AEA4-D8E1A7FDBA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26401C92-F7D3-49F3-AEA4-D8E1A7FDBA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E406F1-1144-4163-B53A-782E14D58D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E406F1-1144-4163-B53A-782E14D58D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E406F1-1144-4163-B53A-782E14D58D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E406F1-1144-4163-B53A-782E14D58D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F577CEE3-C6FF-4160-AC4D-D7633A7E4C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F577CEE3-C6FF-4160-AC4D-D7633A7E4C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F577CEE3-C6FF-4160-AC4D-D7633A7E4C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F577CEE3-C6FF-4160-AC4D-D7633A7E4C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4271B2DF-70D1-4953-934F-1E6431A6CA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4271B2DF-70D1-4953-934F-1E6431A6CA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4271B2DF-70D1-4953-934F-1E6431A6CA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4271B2DF-70D1-4953-934F-1E6431A6CA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E72858-61C6-48B6-974C-CAEE57777D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E72858-61C6-48B6-974C-CAEE57777D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E72858-61C6-48B6-974C-CAEE57777D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E72858-61C6-48B6-974C-CAEE57777D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166A2649-688E-4DE0-89AB-14984566CD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166A2649-688E-4DE0-89AB-14984566CD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166A2649-688E-4DE0-89AB-14984566CD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166A2649-688E-4DE0-89AB-14984566CD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9F1ABA-8297-4855-B06B-B3C0F2419B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9F1ABA-8297-4855-B06B-B3C0F2419B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9F1ABA-8297-4855-B06B-B3C0F2419B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9F1ABA-8297-4855-B06B-B3C0F2419B35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD0C204-BD88-4664-97CC-A1C19C75E648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD0C204-BD88-4664-97CC-A1C19C75E648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD0C204-BD88-4664-97CC-A1C19C75E648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD0C204-BD88-4664-97CC-A1C19C75E648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7399AB-2FB2-419F-B2A1-2E88F0D3166C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7399AB-2FB2-419F-B2A1-2E88F0D3166C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7399AB-2FB2-419F-B2A1-2E88F0D3166C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7399AB-2FB2-419F-B2A1-2E88F0D3166C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771AA9BE-E747-438E-9FA1-F4AA0AD6DDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771AA9BE-E747-438E-9FA1-F4AA0AD6DDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771AA9BE-E747-438E-9FA1-F4AA0AD6DDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771AA9BE-E747-438E-9FA1-F4AA0AD6DDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBA7A0D-7701-4DB4-B6AE-8C3D5D2ABDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBA7A0D-7701-4DB4-B6AE-8C3D5D2ABDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBA7A0D-7701-4DB4-B6AE-8C3D5D2ABDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBA7A0D-7701-4DB4-B6AE-8C3D5D2ABDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26132202-3AB2-44AE-B622-4174A03FEC98} = {7176F90D-383F-483E-8969-9FDB239F471E}
+		{717C4AEF-888A-43BF-9112-2778BEA4AEA0} = {26132202-3AB2-44AE-B622-4174A03FEC98}
+		{B7E406F1-1144-4163-B53A-782E14D58D1E} = {717C4AEF-888A-43BF-9112-2778BEA4AEA0}
+		{F577CEE3-C6FF-4160-AC4D-D7633A7E4C36} = {717C4AEF-888A-43BF-9112-2778BEA4AEA0}
+		{4271B2DF-70D1-4953-934F-1E6431A6CA93} = {26132202-3AB2-44AE-B622-4174A03FEC98}
+		{5B9F1ABA-8297-4855-B06B-B3C0F2419B35} = {989A8B77-EACE-46B9-AE39-92C4FEACCDF7}
+		{4BD0C204-BD88-4664-97CC-A1C19C75E648} = {989A8B77-EACE-46B9-AE39-92C4FEACCDF7}
+		{2F7399AB-2FB2-419F-B2A1-2E88F0D3166C} = {DDF99394-EB90-4A13-A804-3A1BAE8F808D}
+		{771AA9BE-E747-438E-9FA1-F4AA0AD6DDD0} = {DDF99394-EB90-4A13-A804-3A1BAE8F808D}
+		{0DBA7A0D-7701-4DB4-B6AE-8C3D5D2ABDDA} = {7176F90D-383F-483E-8969-9FDB239F471E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6102E020-CF25-4EFE-90EB-D536C97E428B}
+	EndGlobalSection
+EndGlobal

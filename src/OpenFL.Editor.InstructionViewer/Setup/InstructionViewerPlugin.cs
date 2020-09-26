@@ -8,7 +8,7 @@ namespace OpenFL.Editor.InstructionViewer.Setup
     public class InstructionViewerPlugin : APlugin<FLEditorPluginHost>
     {
 
-        public override string Name => "fl-debugger-instruction-viewer";
+        public override string Name => "fl-editor-instruction-viewer";
 
         private InstructionViewerForm f;
 
