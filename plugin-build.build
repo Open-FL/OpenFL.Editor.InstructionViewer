@@ -1,3 +1,4 @@
 name: fl-editor-instruction-viewer
 target: .\src\OpenFL.Editor.InstructionViewer\bin\Debug\OpenFL.Editor.InstructionViewer.dll
-#output: .\build\fl-editor-instruction-viewer.zip
+output: .\docs\latest\fl-editor-instruction-viewer.zip
+flags: INFO_TO_OUTPUT
