@@ -7,6 +7,7 @@ namespace OpenFL.Editor.InstructionViewer.Setup
 {
     public class InstructionViewerPlugin : APlugin<FLEditorPluginHost>
     {
+
         private InstructionViewerForm f;
 
         [ToolbarItem("FL", 2)]
