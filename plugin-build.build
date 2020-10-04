@@ -1,5 +1,12 @@
 name: fl-editor-instruction-viewer
-target: .\src\OpenFL.Editor.InstructionViewer\bin\Debug\OpenFL.Editor.InstructionViewer.dll
-output: .\docs\latest\fl-editor-instruction-viewer.zip
-origin: https://open-fl.github.io/OpenFL.Editor.InstructionViewer/latest/info.txt
+branch: Debug
+project-name: OpenFL.Editor.InstructionViewer
 flags: INFO_TO_OUTPUT
+
+# Build Info
+target: %buildout%\%project-name%.dll
+solution: .\src\%project-name%.sln
+output: .\docs\latest\%name%.zip
+origin: https://open-fl.github.io/%project-name%/latest/info.txt
+buildout: .\src\%project-name%\bin\%branch%
+buildcmd: msbuild {0} /t:Build /p:Configuration=%branch%
