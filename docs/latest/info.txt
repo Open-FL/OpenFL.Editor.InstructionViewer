@@ -1,1 +1,1 @@
-fl-editor-instruction-viewer|OpenFL.Editor.InstructionViewer.dll|https://open-fl.github.io/OpenFL.Editor.InstructionViewer/latest/info.txt|0.0.0.40|
+fl-editor-instruction-viewer|OpenFL.Editor.InstructionViewer.dll|https://open-fl.github.io/OpenFL.Editor.InstructionViewer/latest/info.txt|0.0.0.41|
